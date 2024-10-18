@@ -13,7 +13,7 @@ Node *addFirstnode(Node *&head, int data)
     temp->data = data;
     if (head == NULL)
     {
-        head = temp;
+        head = temp
         head->next = NULL;
         // return head;
     }
